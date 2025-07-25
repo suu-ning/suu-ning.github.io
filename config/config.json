@@ -1,0 +1,37 @@
+{
+    "locale": "en",
+    "navbar": {
+        "title": "首页",
+        "logo": {
+            "alt": "my_site logo",
+            "url": ""
+        },
+        "home_url": "/",
+        "items": [
+            {
+                "url": "/dev/",
+                "label": "文档",
+                "position": "left"
+            },
+            {
+                "url": "/other/",
+                "label": "其他",
+                "position": "left"
+            }
+        ]
+    },
+    "footer":{
+        "top":[
+            {
+                "label": "",
+                "items": [
+                    {
+                        "label": "",
+                        "url": "#",
+                        "target": "_blank"
+                    }
+                ]
+            }
+        ]
+    }
+}
