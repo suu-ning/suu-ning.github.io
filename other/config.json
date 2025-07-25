@@ -1,4 +1,4 @@
 {
-    "import": "config",
-    "name": "other"
+  "import": "config",
+  "name": "other"
 }

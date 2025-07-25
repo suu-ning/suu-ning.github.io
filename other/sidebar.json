@@ -1,8 +1,8 @@
 {
-    "items": [
-        {
-            "label": "简介",
-            "file": "README.md"
-        }
-    ]
+	"items": [
+		{
+			"label": "简介",
+			"file": "README.md"
+		}
+	]
 }
