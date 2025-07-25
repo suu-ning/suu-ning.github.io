@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html lang="en"  class=" md_page ">
+<html lang="en"  class="">
 
 
 <head>
@@ -38,18 +38,14 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
         
         <script src="/static/js/theme_default/split.js"></script>
         
-        <link rel="stylesheet" href="/static/css/search/style.css" type="text/css"/>
-        
-        <meta name="blog-generator" content="teedoc-plugin-blog">
-        
         <link rel="stylesheet" href="/static/css/custom.css" type="text/css"/>
         
     
     
-    <title>no translation - mysite</title>
+    <title>mysite</title>
     
     <script type="text/javascript">js_vars = {}</script>
-    <script type="text/javascript">metadata = {"tags": [], "date": false, "update": [], "ts": 0, "author": "", "brief": "", "cover": "", "class": "md_page"}</script>
+    <script type="text/javascript">metadata = {"tags": [], "date": null, "update": [], "ts": 0, "author": "", "brief": "", "cover": ""}</script>
 </head>
 
 
@@ -57,12 +53,10 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
     
     <div id="navbar">
         <div id="navbar_menu">
-            <a class="site_title" href="/en/">
-                
-                    <img class="site_logo" src="/static/image/logo.png" alt="my_site logo">
+            <a class="site_title" href="/">
                 
                 
-                    <h2>my_site</h2>
+                    <h2>首页</h2>
                 
         </a>
             <a id="navbar_menu_btn"></a>
@@ -70,27 +64,16 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
         <div id="navbar_items">
             <div>
                 <ul id="nav_left">
-<li class="active"><a  href="/get_started/en/">Install</a></li>
-<li class=""><a  href="/blog/">Blog</a></li>
+<li class=""><a  href="/dev/">文档</a></li>
+<li class="active"><a  href="/other/">其他</a></li>
 </ul>
 
             </div>
             <div>
                 <ul id="nav_right">
-<li class=""><a target="_blank" href="https://github.com/neutree/teedoc">github</a></li>
-<li class="sub_items "><a  >Language: English</a><ul><li class="active"><a  href="/get_started/en/no_translate.html">English</a></li>
-<li class=""><a  href="/get_started/zh/no_translate.html">中文 简体</a></li>
-</ul></li>
 </ul>
 
-                <ul class="nav_plugins"><li><a id="themes" class="light"></a></li></ul><ul class="nav_plugins"><li><a id="search"><span class="icon"></span><span class="placeholder">Search</span>
-                            <div id="search_hints">
-                                <span id="search_input_hint">Keywords separated by space</span>
-                                <span id="search_loading_hint">Loading, wait please ...</span>
-                                <span id="search_download_err_hint">Download error, please check network and refresh again</span>
-                                <span id="search_other_docs_result_hint">Result from other docs</span>
-                                <span id="search_curr_doc_result_hint">Result from current doc</span>
-                            </div></a></li></ul>
+                <ul class="nav_plugins"><li><a id="themes" class="light"></a></li></ul>
             </div>
         </div>
     </div>
@@ -101,8 +84,8 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                 <div id="sidebar_title">
                     
                 </div>
-                <ul class="">
-<li class="not_active with_link"><a href="/get_started/en/index.html"><span class="label">Introduction to teedoc</span><span class=""></span></a></li>
+                <ul class="show">
+<li class="active with_link"><a href="/other/index.html"><span class="label">简介</span><span class=""></span></a></li>
 </ul>
 
             </div>
@@ -117,7 +100,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                     <div id="article_head">
                         <div id="article_title">
                             
-                            <h1>no translation</h1>
+                            <h1></h1>
                             
                         </div>
                         <div id="article_tags">
@@ -131,14 +114,12 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                                 
                             </span>
                             
+                                <span class="article_date" title="Last modify date: 2025-07-25">
+                                    2025-07-25
+                                </span>
+                            
                         </div>
                         <div id="article_info_right">
-                            
-                            <div id="source_link">
-                                <a href="https://github.com/my_name/my_name.github.io/blob/main/tmp/no_translate.md" target="_blank">
-                                    Edit this page
-                                </a>
-                            </div>
                             
                         </div>
                         </div>
@@ -152,33 +133,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                     </div>
                     <div id="article_content">
                         
-                            <div id="visit_from"></div>
-<div id="no_translate_hint">This page not translated yet</div>
-<div>
-    <span id="visit_hint">Please visit</span>
-    <a id="translate_src"></a>
-</div>
-<div>
-    <script>
-        function getQueryVariable(variable)
-        {
-            var query = window.location.search.substring(1);
-            var vars = query.split("&");
-            for (var i=0;i<vars.length;i++) {
-                    var pair = vars[i].split("=");
-                    if(pair[0] == variable){return pair[1];}
-            }
-            return(false);
-        }
-        var ref = getQueryVariable("ref");
-        var from = getQueryVariable("from");
-        var link = document.getElementById("translate_src");
-        var fromDis = document.getElementById("visit_from");
-        link.href = ref;
-        link.text = ref;
-        fromDis.innerHTML = from;
-    </script>
-</div>
+                            <p>111</p>
 
                         
                     </div>
@@ -207,12 +162,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
         <div id="footer">
             <div id="footer_top">
                 <ul>
-<li><a>Links</a><ul><li><a target="_blank" href="https://teedoc.neucrack.com">Build with teedoc</a></li>
-<li><a  href="/sitemap.xml">Sitemap</a></li>
-</ul>
-</li>
-<li><a>Source code</a><ul><li><a target="_blank" href="https://github.com/neutree/teedoc">github</a></li>
-<li><a target="_blank" href="https://github.com/teedoc/teedoc.github.io">website source files</a></li>
+<li><a></a><ul><li><a target="_blank" href="/#"></a></li>
 </ul>
 </li>
 </ul>
@@ -220,8 +170,6 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
             </div>
             <div id="footer_bottom">
                 <ul>
-<li><a target="_blank" href="https://beian.miit.gov.cn">*ICP备********号</a></li>
-<li><a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=****************">*公网安备***********号</a></li>
 </ul>
 
             </div>
@@ -239,10 +187,6 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
         <script src="/static/js/theme_default/viewer.min.js"></script>
     
         <script src="/static/css/theme_default/prism.min.js"></script>
-    
-        <script src="/static/js/search/search_main.js"></script>
-    
-        <script src="/static/js/plugin_blog/main.js"></script>
     
         <script src="/static/js/custom.js"></script>
     
