@@ -1,13 +1,13 @@
-## Bean生命周期
+## Bean 生命周期
 
 ```
-Bean 实例化 → 
-属性注入 → 
-BeanPostProcessor 前置处理 → 
-初始化方法（@PostConstruct → InitializingBean → init-method） → 
-BeanPostProcessor 后置处理 → 
-Bean 就绪 → 
-容器关闭 → 
+Bean 实例化 →
+属性注入 →
+BeanPostProcessor 前置处理 →
+初始化方法（@PostConstruct → InitializingBean → init-method） →
+BeanPostProcessor 后置处理 →
+Bean 就绪 →
+容器关闭 →
 销毁方法（@PreDestroy → DisposableBean → destroy-method）
 ```
 
@@ -20,4 +20,3 @@ Prototype‌：每次请求时创建，销毁由客户端代码或垃圾回收�
 Request：每次 HTTP 请求创建，请求结束销毁。
 
 Session：用户会话期间存在，会话超时或注销时销毁。
-

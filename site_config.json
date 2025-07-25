@@ -1,58 +1,52 @@
 {
-    "site_name": "mysite",
-    "site_slogon": "",
-    "site_root_url": "/",
-    "site_domain": "my_name.github.io",
-    "site_protocol": "https",
-    "config_template_dir": "config",
-    "route": {
-        "docs": {
-            "/dev/": "docs/dev",
-            "/other/": "docs/other"
-    
-        },
-        "pages": {
-            "/": "pages/index"
-        },
-        "assets": {
-            "/static/": "static"
+  "site_name": "snsite",
+  "site_slogon": "",
+  "site_root_url": "/",
+  "site_domain": "suu-ning.github.io",
+  "site_protocol": "https",
+  "config_template_dir": "config",
+  "route": {
+    "docs": {
+      "/dev/": "docs/dev",
+      "/other/": "docs/other"
+    },
+    "pages": {
+      "/": "pages/index"
+    },
+    "assets": {
+      "/static/": "static"
+    }
+  },
+  "plugins": {
+    "teedoc-plugin-markdown-parser": {
+      "from": "pypi",
+      "config": {}
+    },
+    "teedoc-plugin-theme-default": {
+      "from": "pypi",
+      "config": {
+        "dark": true,
+        "show_print_page": false,
+        "env": {
+          "main_color": "#4caf7d"
         }
+      }
     },
-    "plugins": {
-        "teedoc-plugin-markdown-parser":{
-            "from": "pypi",
-            "config": {
-            }
-        },
-        "teedoc-plugin-theme-default":{
-            "from": "pypi",
-            "config": {
-                "dark": true,
-                "show_print_page": false,
-                "env":{
-                    "main_color": "#4caf7d"
-                }
-            }
-        },
-        "teedoc-plugin-assets": {
-            "from": "pypi",
-            "config": {
-                "header_items": [
-                    "/static/css/custom.css"
-                ],
-                "footer_items": [
-                    "/static/js/custom.js"
-                ],
-                "env":{
-                    "main_color": "#4caf7d",
-                    "second_color": "#0a7d43"
-                }
-            }
+    "teedoc-plugin-assets": {
+      "from": "pypi",
+      "config": {
+        "header_items": ["/static/css/custom.css"],
+        "footer_items": ["/static/js/custom.js"],
+        "env": {
+          "main_color": "#4caf7d",
+          "second_color": "#0a7d43"
         }
-    },
-    "rebuild_changes_delay": 1,
-    "robots":{
-        "User-agent": "*"
-    },
-    "layout_root_dir": "layout"
+      }
+    }
+  },
+  "rebuild_changes_delay": 1,
+  "robots": {
+    "User-agent": "*"
+  },
+  "layout_root_dir": "layout"
 }
