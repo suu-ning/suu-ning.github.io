@@ -1,7 +1,7 @@
 {
 	"locale": "en",
 	"navbar": {
-		"title": "首页",
+		"title": "🌳 / susu",
 		"logo": {
 			"alt": "my_site logo",
 			"url": ""
@@ -9,14 +9,24 @@
 		"home_url": "/",
 		"items": [
 			{
+				"url": "/",
+				"label": "首页",
+				"position": "right"
+			},
+			{
+				"url": "/about/",
+				"label": "关于",
+				"position": "right"
+			},
+			{
 				"url": "/dev/",
-				"label": "面经",
-				"position": "left"
+				"label": "项目",
+				"position": "right"
 			},
 			{
 				"url": "/other/",
-				"label": "其他",
-				"position": "left"
+				"label": "联系",
+				"position": "right"
 			}
 		]
 	},

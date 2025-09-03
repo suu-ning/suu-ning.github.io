@@ -1,3 +1,16 @@
+/* 全局铺满屏幕设置 */
+body {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+html {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 #home_page h1 {
   color: #4caf7d;
 }
@@ -22,4 +35,321 @@
   min-height: 0 !important;
   height: 0 !important;
   overflow: hidden !important;
+}
+
+#doc_footer {
+  background-color: white !important;
+  color: white !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  min-height: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
+
+/* 自定义导航栏样式 - 类似图片设计 */
+.navbar {
+  border: 2px solid #333 !important;
+  border-radius: 8px !important;
+  margin: 20px !important;
+  background-color: white !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+}
+
+.navbar-brand {
+  font-weight: bold !important;
+  color: #333 !important;
+  font-size: 16px !important;
+}
+
+.navbar-nav .nav-link {
+  color: #333 !important;
+  font-weight: 500 !important;
+  margin: 0 10px !important;
+  padding: 8px 16px !important;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #f5f5f5 !important;
+  border-radius: 4px !important;
+  color: #4caf7d !important;
+}
+
+/* 确保导航栏在容器内有适当的边距 */
+.navbar-container {
+  padding: 0 20px !important;
+}
+
+/* 深色主题下的导航栏样式 */
+.dark .navbar {
+  background-color: #2d2d2d !important;
+  border-color: #555 !important;
+}
+
+.dark .navbar-brand {
+  color: white !important;
+}
+
+.dark .navbar-nav .nav-link {
+  color: #ddd !important;
+}
+
+.dark .navbar-nav .nav-link:hover {
+  background-color: #444 !important;
+  color: #4caf7d !important;
+}
+
+/* 全局布局修复 - 铺满全屏 */
+.content {
+  width: 100% !important;
+  max-width: none !important;
+  overflow-x: hidden !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.container, .container-fluid {
+  width: 100% !important;
+  max-width: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin: 0 !important;
+}
+
+/* 确保主内容区域铺满全屏 */
+.main-content {
+  width: 100% !important;
+  max-width: none !important;
+  overflow-x: hidden !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* 移除默认的容器限制 */
+.teedoc-main {
+  width: 100% !important;
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* 内容区域铺满全屏 */
+.content-root {
+  width: 100% !important;
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* 侧边栏和主内容区域的布局优化 */
+.teedoc-doc-content {
+  width: 100% !important;
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.markdown-body {
+  width: 100% !important;
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+/* 确保文档内容区域铺满 */
+.doc-content {
+  width: 100% !important;
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* 个人简介页面 Markdown 样式 - 铺满全屏 */
+#about_page {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 20px 5% 20px 5%;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+#about_page h1 {
+  color: #333;
+  border-bottom: 3px solid #4caf7d;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+#about_page h2 {
+  color: #333;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border-left: 4px solid #4caf7d;
+}
+
+#about_page h3 {
+  color: #4caf7d;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+#about_page p {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+#about_page ul {
+  margin-bottom: 20px;
+}
+
+#about_page li {
+  color: #666;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+#about_page strong {
+  color: #333;
+  font-weight: 600;
+}
+
+#about_page code {
+  background-color: #e8f5e8;
+  color: #2d5f2d;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  border: 1px solid #4caf7d;
+}
+
+#about_page blockquote {
+  border-left: 4px solid #4caf7d;
+  background-color: #f9f9f9;
+  margin: 20px 0;
+  padding: 15px 20px;
+  font-style: italic;
+  color: #555;
+}
+
+#about_page hr {
+  border: none;
+  border-top: 2px solid #e0e0e0;
+  margin: 40px 0;
+}
+
+#about_page a {
+  color: #4caf7d;
+  text-decoration: none;
+  border-bottom: 1px dotted #4caf7d;
+}
+
+#about_page a:hover {
+  color: #0a7d43;
+  border-bottom: 1px solid #0a7d43;
+}
+
+/* 响应式设计 - 全屏优化 */
+@media screen and (max-width: 1200px) {
+  #about_page {
+    padding: 20px 3% 20px 3%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #about_page {
+    padding: 15px 2% 15px 2%;
+  }
+  
+  #about_page h1 {
+    font-size: 24px;
+  }
+  
+  #about_page h2 {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
+  #about_page h3 {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #about_page {
+    padding: 10px 2% 10px 2%;
+  }
+  
+  #about_page h1 {
+    font-size: 22px;
+  }
+  
+  #about_page h2 {
+    font-size: 18px;
+  }
+  
+  #about_page h3 {
+    font-size: 16px;
+  }
+}
+
+/* 深色主题适配 */
+.dark #about_page {
+  color: #ddd;
+}
+
+.dark #about_page h1 {
+  color: white;
+  border-bottom-color: #4caf7d;
+}
+
+.dark #about_page h2 {
+  color: white;
+  border-left-color: #4caf7d;
+}
+
+.dark #about_page h3 {
+  color: #7dd87d;
+}
+
+.dark #about_page p {
+  color: #ccc;
+}
+
+.dark #about_page li {
+  color: #ccc;
+}
+
+.dark #about_page strong {
+  color: white;
+}
+
+.dark #about_page code {
+  background-color: #1a3d1a;
+  color: #7dd87d;
+  border-color: #4caf7d;
+}
+
+.dark #about_page blockquote {
+  background-color: #2d2d2d;
+  color: #ccc;
+  border-left-color: #4caf7d;
+}
+
+.dark #about_page hr {
+  border-top-color: #555;
+}
+
+.dark #about_page a {
+  color: #7dd87d;
+  border-bottom-color: #7dd87d;
+}
+
+.dark #about_page a:hover {
+  color: #4caf7d;
+  border-bottom-color: #4caf7d;
 }

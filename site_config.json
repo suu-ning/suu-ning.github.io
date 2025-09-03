@@ -8,6 +8,7 @@
   "route": {
     "docs": {
       "/dev/": "docs/dev",
+      "/about/": "docs/about",
       "/other/": "docs/other"
     },
     "pages": {
