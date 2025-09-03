@@ -31,6 +31,12 @@
             <priority>1.0</priority>
         </url>
         <url>
+            <loc>https://suu-ning.github.io/about/index.html</loc>
+            <lastmod>2025-09-03</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
             <loc>https://suu-ning.github.io/other/index.html</loc>
             <lastmod>2025-09-03</lastmod>
             <changefreq>weekly</changefreq>
