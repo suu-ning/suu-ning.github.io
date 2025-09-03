@@ -10,3 +10,16 @@
     color: #eb4848;
   }
 }
+
+/* 隐藏 footer - 通过背景色和特定ID */
+#page_footer {
+  background-color: white !important;
+  color: white !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  min-height: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
