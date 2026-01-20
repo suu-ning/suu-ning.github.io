@@ -1,8 +1,12 @@
 {
 	"items": [
 		{
-			"label": "简介",
+			"label": "HTML & CSS",
 			"file": "README.md"
+		},
+		{
+			"label": "Javascript",
+			"file": "Javascript.md"
 		}
 	]
 }
