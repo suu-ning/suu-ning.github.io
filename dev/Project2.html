@@ -72,7 +72,7 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
 <li class=""><a  href="/">首页</a></li>
 <li class=""><a  href="/about/">关于</a></li>
 <li class="active"><a  href="/dev/">项目</a></li>
-<li class=""><a  href="/other/">联系</a></li>
+<li class=""><a  href="/other/">面试</a></li>
 </ul>
 
                 <ul class="nav_plugins"><li><a id="themes" class="light"></a></li></ul>
@@ -87,11 +87,11 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                     
                 </div>
                 <ul class="show">
-<li class="not_active with_link"><a href="/dev/index.html"><span class="label">简介</span><span class=""></span></a></li>
-<li class="not_active with_link"><a href="/dev/Java.html"><span class="label">Java</span><span class=""></span></a></li>
-<li class="not_active with_link"><a href="/dev/MySQL.html"><span class="label">MySQL</span><span class=""></span></a></li>
-<li class="not_active with_link"><a href="/dev/Redis.html"><span class="label">Redis</span><span class=""></span></a></li>
-<li class="active with_link"><a href="/dev/Spring.html"><span class="label">Spring</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/dev/index.html"><span class="label">项目一</span><span class=""></span></a></li>
+<li class="active with_link"><a href="/dev/Project2.html"><span class="label">项目二</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/dev/Project3.html"><span class="label">项目三</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/dev/Project4.html"><span class="label">项目三</span><span class=""></span></a></li>
+<li class="not_active with_link"><a href="/dev/Project5.html"><span class="label">项目四</span><span class=""></span></a></li>
 </ul>
 
             </div>
@@ -120,8 +120,8 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                                 
                             </span>
                             
-                                <span class="article_date" title="Last modify date: 2025-09-03">
-                                    2025-09-03
+                                <span class="article_date" title="Last modify date: 2026-01-20">
+                                    2026-01-20
                                 </span>
                             
                         </div>
@@ -139,22 +139,9 @@ MathJax = {"loader": {"load": ["output/svg"]}, "tex": {"inlineMath": [["$", "$"]
                     </div>
                     <div id="article_content">
                         
-                            <h2 id="Bean-%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F">Bean 生命周期</h2>
-
-<pre class="language-none"><code class="language-none">Bean 实例化 →
-属性注入 →
-BeanPostProcessor 前置处理 →
-初始化方法（@PostConstruct → InitializingBean → init-method） →
-BeanPostProcessor 后置处理 →
-Bean 就绪 →
-容器关闭 →
-销毁方法（@PreDestroy → DisposableBean → destroy-method）
-</code></pre>
-<h2 id="%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%AF%B9%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E7%9A%84%E5%BD%B1%E5%93%8D">作用域对生命周期的影响</h2>
-<p>Singleton：容器启动时创建（若为懒加载则首次使用时创建），容器关闭时销毁。</p>
-<p>Prototype‌：每次请求时创建，销毁由客户端代码或垃圾回收控制（Spring 不管理原型 Bean 的销毁）。</p>
-<p>Request：每次 HTTP 请求创建，请求结束销毁。</p>
-<p>Session：用户会话期间存在，会话超时或注销时销毁。</p>
+                            <h2 id="%E8%81%9A%E7%B0%87%E7%B4%A2%E5%BC%95%E5%92%8C%E9%9D%9E%E8%81%9A%E7%B0%87%E7%B4%A2%E5%BC%95">聚簇索引和非聚簇索引</h2>
+<h2 id="%E7%B4%A2%E5%BC%95%E5%A4%B1%E6%95%88%E9%97%AE%E9%A2%98">索引失效问题</h2>
+<h2 id="%E4%B8%89%E5%A4%A7%E6%97%A5%E5%BF%97">三大日志</h2>
 
                         
                     </div>
@@ -162,13 +149,18 @@ Bean 就绪 →
                 <div id="previous_next">
                     <div id="previous">
                         
-                        <a href="/dev/Redis.html">
+                        <a href="/dev/index.html">
                             <span class="icon"></span>
-                            <span class="label">Redis</span>
+                            <span class="label">项目一</span>
                         </a>
                         
                     </div>
                     <div id="next">
+                        
+                        <a href="/dev/Project3.html">
+                            <span class="label">项目三</span>
+                            <span class="icon"></span>
+                        </a>
                         
                     </div>
                 </div>

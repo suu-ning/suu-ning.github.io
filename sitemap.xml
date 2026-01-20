@@ -1,44 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+            <loc>https://suu-ning.github.io/dev/Project5.html</loc>
+            <lastmod>2026-01-20</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://suu-ning.github.io/dev/Project4.html</loc>
+            <lastmod>2026-01-20</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://suu-ning.github.io/dev/Project3.html</loc>
+            <lastmod>2026-01-20</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
             <loc>https://suu-ning.github.io/dev/index.html</loc>
-            <lastmod>2025-09-03</lastmod>
+            <lastmod>2026-01-20</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
-            <loc>https://suu-ning.github.io/dev/Spring.html</loc>
-            <lastmod>2025-09-03</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://suu-ning.github.io/dev/Redis.html</loc>
-            <lastmod>2025-09-03</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://suu-ning.github.io/dev/MySQL.html</loc>
-            <lastmod>2025-09-03</lastmod>
-            <changefreq>weekly</changefreq>
-            <priority>1.0</priority>
-        </url>
-        <url>
-            <loc>https://suu-ning.github.io/dev/Java.html</loc>
-            <lastmod>2025-09-03</lastmod>
+            <loc>https://suu-ning.github.io/dev/Project2.html</loc>
+            <lastmod>2026-01-20</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://suu-ning.github.io/about/index.html</loc>
-            <lastmod>2025-09-03</lastmod>
+            <lastmod>2026-01-20</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>
         <url>
             <loc>https://suu-ning.github.io/other/index.html</loc>
-            <lastmod>2025-09-03</lastmod>
+            <lastmod>2026-01-20</lastmod>
+            <changefreq>weekly</changefreq>
+            <priority>1.0</priority>
+        </url>
+        <url>
+            <loc>https://suu-ning.github.io/other/Javascript.html</loc>
+            <lastmod>2026-01-20</lastmod>
             <changefreq>weekly</changefreq>
             <priority>1.0</priority>
         </url>

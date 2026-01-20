@@ -1,24 +1,24 @@
 {
   "items": [
     {
-      "label": "简介",
+      "label": "项目一",
       "file": "README.md"
     },
     {
-      "label": "Java",
-      "file": "Java.md"
+      "label": "项目二",
+      "file": "Project2.md"
     },
     {
-      "label": "MySQL",
-      "file": "MySQL.md"
+      "label": "项目三",
+      "file": "Project3.md"
     },
     {
-      "label": "Redis",
-      "file": "Redis.md"
+      "label": "项目三",
+      "file": "Project4.md"
     },
     {
-      "label": "Spring",
-      "file": "Spring.md"
+      "label": "项目四",
+      "file": "Project5.md"
     }
   ]
 }
